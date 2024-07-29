@@ -1,0 +1,63 @@
+.order-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.multi-field {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.total {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-weight: bold;
+}
